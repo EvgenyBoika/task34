@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: public.ecr.aws/f3h2t7h5/task31:latest
+  repository: public.ecr.aws/f3h2t7h5/red11111@sha256:66e805b17681a738da32bc77d354e055dae06d2f8e6396e3f345551597713d6a
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
